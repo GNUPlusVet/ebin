@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import time
-import signal
 from termcolor import colored
 text = input('What do you want to spam? ')
 color = ['red', 'yellow', 'green', 'blue', 'magenta']
