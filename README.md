@@ -1,5 +1,5 @@
 # ebin
-Made with my friend [ungentoo](http://github.com/ungentoo)<br>
+Made with my friend [dev](http://github.com/ungentoo)<br>
 (its our first python script no bullies)<br>
 Respects your Freedumbs®™©<br>
 It's called ebin because the original program displayed "ebin" over and over again<br>
