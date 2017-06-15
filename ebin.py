@@ -1,11 +1,16 @@
 #!/usr/bin/env python
 import time
+import random
 from termcolor import colored
 text = input('What do you want to spam? ')
-color = ['red', 'yellow', 'green', 'blue', 'magenta']
+if text == 'minion':
+    text = random.choice(open('minions.txt').readlines())
+elif text == 'minions':
+    text = random.choice(open('minions.txt').readlines())
 try:
     interval = input('At what interval? ')
     interval = float(interval)
+    color = ['red', 'yellow', 'green', 'blue', 'magenta']
 except ValueError:
     print("That is not an integer...")
 else:
