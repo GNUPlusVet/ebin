@@ -8,7 +8,9 @@ if text == 'minion':
 elif text == 'minions':
     text = random.choice(open('minions.txt').readlines())
 try:
-    interval = input('At what interval? ')
+    interval = input('At what interval? (In seconds) ')
+    if interval == '':
+        interval = 0.075
     interval = float(interval)
     color = ['red', 'yellow', 'green', 'blue', 'magenta']
 except ValueError:
