@@ -6,6 +6,6 @@ It's called ebin because the original program displayed "ebin" over and over aga
 I have only tested this on GNU+Linux, not sure if it works on Windows of MacOS/OSX, but it should.<br><br>
 Use pip install termcolor to run this.<br><br>
 My screenshot<br>
-![Screenshot 1](ebin1.png)<br>
+![Screenshot 1](screenshots/ebin1.png)<br>
 [dev's](http://github.com/ungentoo) screenshot<br>
-![Screenshot 2](ebin2.png)
+![Screenshot 2](screenshots/ebin2.png)
