@@ -7,5 +7,5 @@ I have only tested this on GNU+Linux, not sure if it works on Windows of MacOS/O
 Use pip install termcolor to run this.<br><br>
 My screenshot<br>
 ![Screenshot 1](ebin1.png)<br>
-[ungentoo's](http://github.com/ungentoo) screenshot<br>
+[dev's](http://github.com/ungentoo) screenshot<br>
 ![Screenshot 2](ebin2.png)
