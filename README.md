@@ -3,7 +3,7 @@ Made with my friend [dev](http://github.com/ungentoo)<br>
 (its our first python script no bullies)<br>
 Respects your Freedumbs®™©<br>
 It's called ebin because the original program displayed "ebin" over and over again<br>
-I have only tested this on GNU+Linux, not sure if it works on Windows or MacOS/OSX, but it should.<br><br>
+I have only tested this on GNU+Linux, not sure if it works on Wangblows+NT or XNU+Darwin, but it should.<br><br>
 Use pip install termcolor to run this.<br><br>
 My screenshot<br>
 ![Screenshot 1](screenshots/ebin1.png)<br>
