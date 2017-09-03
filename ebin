@@ -4,26 +4,31 @@ import random
 from termcolor import colored
 text = input('What do you want to spam? ')
 if text == 'minion':
-    text = random.choice(open('minions.txt').readlines())
+    text = random.choice(open('minions').readlines())
 elif text == 'minions':
-    text = random.choice(open('minions.txt').readlines())
+    text = random.choice(open('minions').readlines())
 try:
     interval = input('At what interval? (In seconds) ')
     if interval == '':
         interval = 0.075
     interval = float(interval)
-    color = ['red', 'yellow', 'green', 'blue', 'magenta']
+    color = ['red', 'yellow', 'green', 'cyan', 'blue', 'magenta']
 except ValueError:
     print("That is not an integer...")
 else:
     while True:
-        print(colored(text, color[0])),
-        time.sleep(interval)
-        print(colored(text, color[1])),
-        time.sleep(interval)
-        print(colored(text, color[2])),
-        time.sleep(interval)
-        print(colored(text, color[3])),
-        time.sleep(interval)
-        print(colored(text, color[4])),
-        time.sleep(interval)
+        try:
+            print(colored(text, color[0])),
+            time.sleep(interval)
+            print(colored(text, color[1])),
+            time.sleep(interval)
+            print(colored(text, color[2])),
+            time.sleep(interval)
+            print(colored(text, color[3])),
+            time.sleep(interval)
+            print(colored(text, color[4])),
+            time.sleep(interval)
+            print(colored(text, color[5]))
+            time.sleep(interval)
+        except KeyboardInterrupt:
+            break
